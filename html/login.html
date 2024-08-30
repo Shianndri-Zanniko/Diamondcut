@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiamondCut | Login</title>
+    <link href="../css/base.css" rel="stylesheet" type="text/css" />
+    <link href="../css/login.css" rel="stylesheet" type="text/css" />
+    <script src="../js/login.js" defer></script>
+</head>
+<body>
+    <div class="navbar-logo-left">
+        <div class="navbar-logo-left-container">
+            <div class="navbar-container">
+                <div class="navbar-wrapper"><a href="./home.html" class="nav-brand"><img
+                            src="../image/logo/the logo.png" loading="lazy" width="102.5" alt="" /></a>
+                    <nav role="navigation" class="nav-menu">
+                        <ul role="list" class="nav-menu-two">
+                            <li class="cars-navbar"><a href="cars.html" class="nav-link">Cars</a></li>
+                            <li class="showroom-navbar"><a href="showroom.html" class="nav-link">Showroom</a></li>
+                            <li class="about-us-navbar"><a href="about-us.html" class="nav-link">About Us</a></li>
+                            <li class="sepperator">
+                                <div class="nav-divider"></div>
+                            </li>
+                            <li><a href="login.html" class="buttons">Login</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="login-section">
+        <div class="login-container"><img
+                src="../image/logo/the logo.png"
+                loading="lazy" alt="" class="login-logo" />
+            <div class="login-form">
+                <div class="login-heading">Login</div>
+                <form id="Login-form" >
+                      
+                    <label class="form-bold" for="Username">Username</label>
+                    <input class="form-input"
+                        maxlength="30"
+                        placeholder="Enter Your Username"
+                        id="Username"/>
+                        
+                    <label class="form-bold" for="Login-form-Email-Address">Email Address</label>
+                    <input class="form-input"
+                        maxlength="30"
+                        placeholder="Enter Your Email Address" 
+                        id="Login-form-Email-Address" 
+                        />
+                        
+                    <label class="form-bold" for="Phone">Phone Number</label>
+                    <input class="form-input" 
+                        maxlength="15" 
+                        placeholder="Enter Your Phone Number" 
+                        id="Phone"
+                        />
+                        
+                    <label class="form-bold" for="Password-3">Password</label>
+                    <input class="form-input" 
+                        maxlength="20"
+                        type="password"
+                        id="password" />
+                        
+                    <label class="form-bold" for="Confirm-Password">Confirm Password</label>
+                    <input class="form-input" 
+                        maxlength="20"
+                        type="password"
+                        id="Confirm-Password" />
+                        
+                    <label class="checkbox">
+                     <input type="checkbox"
+                         id="checkbox" 
+                         class="checkbox-input" />
+                     <span class="tos" for="checkbox">agree to the terms and services</span>
+                    </label>
+                    
+                    <input type="submit" 
+                        class="login-button" 
+                        value="Submit" />
+                </form>
+                <div class="login-success">
+                    <div>Thank you! You have succesfully log in.</div>
+                </div>
+                <div class="login-failed">
+                    <div>Oops! Something went wrong while logging in.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
